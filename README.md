@@ -135,42 +135,42 @@ The installer includes the following components. The number of each is the compo
 ## 
 
 **[11-14] Quick Slots for BGEE**  
-- 11. Install 1 Quick Save Slot
-- 12. Install 2 Quick Save Slots
-- 13. Install 3 Quick Save Slots
-- 14. Restore 4 Quick Save Slots
+- [11] Install 1 Quick Save Slot
+- [12] Install 2 Quick Save Slots
+- [13] Install 3 Quick Save Slots
+- [14] Restore 4 Quick Save Slots
 
 ## 
 
 **[21-24] Quick Slots for SoD**  
-- 21. Install 1 Quick Save Slot
-- 22. Install 2 Quick Save Slots
-- 23. Install 3 Quick Save Slots
-- 24. Restore 4 Quick Save Slots
+- [21] Install 1 Quick Save Slot
+- [22] Install 2 Quick Save Slots
+- [23] Install 3 Quick Save Slots
+- [24] Restore 4 Quick Save Slots
 
 ## 
 
 **[31-34] Quick Slots for BG2EE**  
-- 31. Install 1 Quick Save Slot
-- 32. Install 2 Quick Save Slots
-- 33. Install 3 Quick Save Slots
-- 34. Restore 4 Quick Save Slots
+- [31] Install 1 Quick Save Slot
+- [32] Install 2 Quick Save Slots
+- [33] Install 3 Quick Save Slots
+- [34] Restore 4 Quick Save Slots
 
 ## 
 
 **[41-44] Quick Slots for PSTEE**  
-- 41. Install 1 Quick Save Slot
-- 42. Install 2 Quick Save Slots
-- 43. Install 3 Quick Save Slots
-- 44. Restore 4 Quick Save Slots
+- [41] Install 1 Quick Save Slot
+- [42] Install 2 Quick Save Slots
+- [43] Install 3 Quick Save Slots
+- [44] Restore 4 Quick Save Slots
 
 ## 
 
 **[51-54] Quick Slots for IWDEE**  
-- 51. Install 1 Quick Save Slot
-- 52. Install 2 Quick Save Slots
-- 53. Install 3 Quick Save Slots
-- 54. Restore 4 Quick Save Slots
+- [51] Install 1 Quick Save Slot
+- [52] Install 2 Quick Save Slots
+- [53] Install 3 Quick Save Slots
+- [54] Restore 4 Quick Save Slots
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -179,7 +179,7 @@ The installer includes the following components. The number of each is the compo
 
 ## <a name="credits" id="credits"></a>Credits and Acknowledgements
 
-**Author:** <a ref="http://www.shsforums.net/user/40577-yellow-hat-elminster/">yellow hat elminster</a>  
+**Author:** <a href="http://www.shsforums.net/user/40577-yellow-hat-elminster/">yellow hat elminster</a>  
 
 ## 
 
