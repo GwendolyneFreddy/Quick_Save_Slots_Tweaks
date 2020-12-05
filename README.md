@@ -1,6 +1,6 @@
 
 ![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Quick_Save_Slots_Tweaks?include_prereleases&color=darkred)<a name="top" id="top"> </a>
-![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20linux&color=informational)
+![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20Mac%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French&color=limegreen)
 
 
@@ -15,7 +15,7 @@ BG2:EE, IWD:EE and PsT:EE<h3>
 
 **Author:** elminster  
 **Mod Website:** <a href="http://www.shsforums.net/topic/58653-mod-quick-save-slots-tweaks/">Spellhold Studios</a>  
-**Alternative:** <a href="https://forums.beamdog.com/discussion/comment/866615/</a>  
+**Alternative:** <a href="https://forums.beamdog.com/discussion/comment/866615/"</a>  
 
 ## 
 
@@ -53,6 +53,7 @@ This mod is designed to work on the series of Enhanced Editions published by Bea
 - Planescape Torment: Enhanced Edition (PsTEE).
 
 The BGEE Siege of Dragonspear expansion (SoD) is supported as well. All of the Enhanced Edition games include the original expansion packs, e.g. IWDEE includes Heart of Winter (HoW) and Trials of the Luremaster (TotLM).
+<div align="right"><a href="#top">Back to top</a></div>
 
 
 <hr>
@@ -119,6 +120,7 @@ To install, run **`weinstall setup-k9quicksave`** in your game folder. Then run 
 #### Note for Complete Un-installation
 
 In addition to the methods above for removing individual components, you can completely un-install the mod using **`setup-k9quicksave --uninstall`** at the command line to remove all components without wading through prompts.
+<div align="right"><a href="#top">Back to top</a></div>
 
 
 <hr>
@@ -126,12 +128,61 @@ In addition to the methods above for removing individual components, you can com
 
 ## <a name="components" id="components"></a>Components
 
+The installer groups numbers of Quick Save slots to be installed by games, letting the player decide how many slots he/she wants to install.  
+Be sure you are installing the right component of the mod for your version of the game. If you do not have Siege of Dragonspear installed then do not install the "SoD" component. Similarly, if you have Siege of Dragonspear installed then be sure to not install anything in this mod that has to do with the non-SoD components.  
 The installer includes the following components. The number of each is the component *`DESIGNATED`* number which gives it a fixed install position, lets other components detect it and allows automated installers to specify component choices.
+
+## 
+
+
+## 
+
+**[11-14] Quick Slots for BGEE**  
+**11. Install 1 Quick Save Slot**  
+**12. Install 2 Quick Save Slots**  
+**13. Install 3 Quick Save Slots**  
+**14. Restore 4 Quick Save Slots**  
+
+## 
+
+**[21-24] Quick Slots for SoD**  
+**21. Install 1 Quick Save Slot**  
+**22. Install 2 Quick Save Slots**  
+**23. Install 3 Quick Save Slots**  
+**24. Restore 4 Quick Save Slots**  
+
+## 
+
+**[31-34] Quick Slots for BG2EE**  
+**31. Install 1 Quick Save Slot**  
+**32. Install 2 Quick Save Slots**  
+**33. Install 3 Quick Save Slots**  
+**34. Restore 4 Quick Save Slots**  
+
+## 
+
+**[41-44] Quick Slots for PSTEE**  
+**41. Install 1 Quick Save Slot**  
+**42. Install 2 Quick Save Slots**  
+**43. Install 3 Quick Save Slots**  
+**44. Restore 4 Quick Save Slots**  
+
+## 
+
+**[51-54] Quick Slots for IWDEE**  
+**51. Install 1 Quick Save Slot**  
+**52. Install 2 Quick Save Slots**  
+**53. Install 3 Quick Save Slots**  
+**54. Restore 4 Quick Save Slots**  
+<div align="right"><a href="#top">Back to top</a></div>
+
+
+<hr>
 
 
 ## <a name="credits" id="credits"></a>Credits and Acknowledgements
 
-**Author:** yellow hat elminster  
+**Author:** <a ref="http://www.shsforums.net/user/40577-yellow-hat-elminster/">yellow hat elminster</a>  
 
 ## 
 
@@ -152,43 +203,20 @@ The installer includes the following components. The number of each is the compo
 <hr>
 
 
-@0=Quick Save Slots Tweaks (BGEE-only) -> 1 Quick Save Slot
-@1=Quick Save Slots Tweaks (BGEE-only) -> 2 Quick Save Slots
-@2=Quick Save Slots Tweaks (BGEE-only) -> 3 Quick Save Slots
-@3=Quick Save Slots Tweaks (BGEE-only) -> 4 Quick Save Slots
-@4=Quick Save Slots Tweaks (BGEE+SoD) -> 1 Quick Save Slot
-@5=Quick Save Slots Tweaks (BGEE+SoD) -> 2 Quick Save Slots
-@6=Quick Save Slots Tweaks (BGEE+SoD) -> 3 Quick Save Slots
-@7=Quick Save Slots Tweaks (BGEE+SoD) -> 4 Quick Save Slots
-@8=Quick Save Slots Tweaks (BG2EE) -> 1 Quick Save Slot
-@9=Quick Save Slots Tweaks (BG2EE) -> 2 Quick Save Slots
-@10=Quick Save Slots Tweaks (BG2EE) -> 3 Quick Save Slots
-@11=Quick Save Slots Tweaks (BG2EE) -> 4 Quick Save Slots
-@12=Quick Save Slots Tweaks (PSTEE) -> 1 Quick Save Slot
-@13=Quick Save Slots Tweaks (PSTEE) -> 2 Quick Save Slots
-@14=Quick Save Slots Tweaks (PSTEE) -> 3 Quick Save Slots
-@15=Quick Save Slots Tweaks (PSTEE) -> 4 Quick Save Slots
-
-[Description]
-Mod-EN=This mod lets you choose between having 1 to 4 different quick save slots.
-
-
-
- 
-
-Be sure you are installing the right component of the mod for your version of the game. If you do not have Siege of Dragonspear installed then do not install the "SoD" component. Similarly, if you have Siege of Dragonspear installed then be sure to not install anything in this mod that has to do with the non-SoD components.
+## <a name="versions" id="versions"></a>Version History
 
 ##### Version 1.6 &nbsp;(December 5, 2020)
 
 - Added *k9quicksave.ini* metadata file to support AL|EN's "Project Infinity".
 - Renamed *setup-k9Quicksave.tp2* -> *k9quicksave.tp2* and moved it to mod top folder to support AL|EN's "Project Infinity".
-- Added `REQUIRE_PREDICATE` conditions to avoid installing the mod in inaccurate games.
-- Added components `DESIGNATED` numbers `LABELS`.
+- Added Modmerge check for SoD games.
+- Added components `DESIGNATED` numbers and `LABELS`.
+- Fine tuned `REQUIRE_PREDICATE` conditions to avoid installing the mod in inaccurate games.
 - Added French translation (thanks Gwendolyne).
 - Lower cased files.
 - TODO Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
 - Updated WeiDU installer to v247.
-- TODO Uploaded mod to official Spellhold Studios GitHub mirror account.
+- Uploaded mod to official Spellhold Studios GitHub mirror account.
 
 ## 
     
@@ -228,4 +256,3 @@ Be sure you are installing the right component of the mod for your version of th
 
 - Initial release.
 <div align="right"><a href="#top">Back to top</a></div>
-
