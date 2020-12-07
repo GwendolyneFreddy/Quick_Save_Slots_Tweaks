@@ -37,7 +37,7 @@ BG2:EE, IWD:EE and PsT:EE<h3>
 
 ## <a name="intro" id="intro"></a>Overview
 
-This mod lets you choose between having 1 to 4 different quick save slots in BGEE, SoD, BG2EE, IWDEE, and PSTEE.
+This mod lets you choose between having 1 to 4 different quick save slots in BGEE, SoD, BG2EE, IWDEE and PSTEE.
 
 
 <hr>
@@ -50,7 +50,7 @@ This mod is designed to work on the series of Enhanced Editions published by Bea
 - Baldur's Gate: Enhanced Edition (BGEE).
 - Baldur's Gate II: Enhanced Edition (BG2EE).
 - Icewind Dale: Enhanced Edition (IWDEE).
-- Planescape Torment: Enhanced Edition (PsTEE).
+- Planescape Torment: Enhanced Edition (PSTEE).
 
 The BGEE Siege of Dragonspear expansion (SoD) is supported as well. All of the Enhanced Edition games include the original expansion packs, e.g. IWDEE includes Heart of Winter (HoW) and Trials of the Luremaster (TotLM).
 <div align="right"><a href="#top">Back to top</a></div>
@@ -73,7 +73,7 @@ You can extract files from the archive using <a href="http://www.7-zip.org/downl
 
 ## 
 
-#### Special Note for Siege of Dragonspear from Steam/GOG</h3>
+#### Special Note for Siege of Dragonspear from Steam/GOG
 
 Good Old Games (GOG) and Steam both package the additional content for Siege of Dragonspear in a method that WeiDU, the tool used to install this mod, cannot access. You must run a program called <a href="https://github.com/Argent77/A7-DlcMerger/releases/latest">DLC Merger</a> on your SoD installation before you can install this or any other WeiDU-based mod.
 
@@ -129,7 +129,7 @@ In addition to the methods above for removing individual components, you can com
 ## <a name="components" id="components"></a>Components
 
 The installer groups numbers of Quick Save slots to be installed by games, letting the player decide how many slots he/she wants to install.  
-Be sure you are installing the right component of the mod for your version of the game. If you do not have Siege of Dragonspear installed then do not install the "SoD" component. Similarly, if you have Siege of Dragonspear installed then be sure to not install anything in this mod that has to do with the non-SoD components.  
+Be sure you are installing the right component of the mod for your version of the game. If you do not have Siege of Dragonspear installed then do not install the "SoD" component. Similarly, if you have Siege of Dragonspear installed then be sure to not install anything in this mod that has to do with the non-SoD components.<br><br>
 The installer includes the following components. The number of each is the component *`DESIGNATED`* number which gives it a fixed install position, lets other components detect it and allows automated installers to specify component choices.
 
 ## 
@@ -193,7 +193,7 @@ The installer includes the following components. The number of each is the compo
 
 ###### The modding community for the Infinity Engine has been going strong for more than 10 years now, and is the culmination of thousands of unpaid modding hours by fellow fans of the game. Modders produce their best work and players get the best, well-supported mods when we all work together.
 ###### There are two big ways to upset this harmony. One is to claim someone else's work as your own. The second is to host and redistribute a mod without permission from the author(s).
-###### Be kind to your fellow players and modders. Don't do either.</br></br>
+###### Be kind to your fellow players and modders. Don't do either.</br>
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -210,13 +210,13 @@ The installer includes the following components. The number of each is the compo
 - Added components `DESIGNATED` numbers and `LABELS`.
 - Fine tuned `REQUIRE_PREDICATE` conditions to avoid installing the mod in inaccurate games.
 - Added French translation (thanks Gwendolyne).
+- Added *k9quicksave-readme.txt* file.
 - Lower cased files.
-- TODO Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
+- Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
 - Updated WeiDU installer to v247.
 - Uploaded mod to official Spellhold Studios GitHub mirror account.
 
-## 
-    
+##   
 
 ##### Version 1.5 &nbsp;(September 10, 2018)
 
@@ -239,7 +239,7 @@ The installer includes the following components. The number of each is the compo
 ##### Version 1.2 &nbsp;(December 25, 2016)
 
 - Added support for having different numbers of quick slots.
-- Made the mod a Weidu mod.
+- Made the mod a WeiDU mod.
 
 ## 
 

@@ -1,7 +1,10 @@
 BACKUP ~k9quicksave/backup~
-AUTHOR ~elminster (elminster.sage@gmail.com)~
+AUTHOR ~elminster (elminster.sage AT gmail.com)~
 
 VERSION ~v1.6~
+
+README ~k9quicksave/k9quicksave-readme.txt~
+
 
 ALWAYS
 
@@ -11,6 +14,7 @@ ALWAYS
 		ACTION_IF ((FILE_EXISTS ~dlc/sod-dlc.zip~) OR (FILE_EXISTS ~sod-dlc.zip~)) BEGIN FAIL @21 END
 
 END
+
 
 LANGUAGE ~English~
          ~english~
@@ -47,7 +51,7 @@ REQUIRE_PREDICATE GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~SOD~
 
 BEGIN @14 // ~Restore 4 Quick Save Slots~
 GROUP @1
-DESIGNATED 14 LABEL "k9_restire_4_quick_save_slots_for_bgee"
+DESIGNATED 14 LABEL "k9_restore_4_quick_save_slots_for_bgee"
 REQUIRE_PREDICATE GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~SOD~
 
 	COPY ~k9quicksave/2da/bgee/4/savename.2da~ ~override/savename.2da~
@@ -75,14 +79,14 @@ GROUP @2
 DESIGNATED 23 LABEL "k9_install_3_quick_save_slots_for_sod"
 REQUIRE_PREDICATE GAME_IS ~IWDEE~ AND GAME_INCLUDES ~SOD~
 
-COPY ~k9quicksave/2da/sod/3/savename.2da~ ~override/savename.2da~
+	COPY ~k9quicksave/2da/sod/3/savename.2da~ ~override/savename.2da~
 
 BEGIN @14 // ~Restore 4 Quick Save Slots~
 GROUP @2
-DESIGNATED 24 LABEL "k9_restire_4_quick_save_slots_for_sod"
+DESIGNATED 24 LABEL "k9_restore_4_quick_save_slots_for_sod"
 REQUIRE_PREDICATE GAME_IS ~IWDEE~ AND GAME_INCLUDES ~SOD~
 
-COPY ~k9quicksave/2da/sod/4/savename.2da~ ~override/savename.2da~
+	COPY ~k9quicksave/2da/sod/4/savename.2da~ ~override/savename.2da~
 
 
 /* ==================================== *
@@ -111,7 +115,7 @@ REQUIRE_PREDICATE GAME_IS ~BG2EE~
 
 BEGIN @14 // ~Restore 4 Quick Save Slots~
 GROUP @3
-DESIGNATED 34 LABEL "k9_restire_4_quick_save_slots_for_bg2ee"
+DESIGNATED 34 LABEL "k9_restore_4_quick_save_slots_for_bg2ee"
 REQUIRE_PREDICATE GAME_IS ~BG2EE~
 
 	COPY ~k9quicksave/2da/bg2ee/4/savename.2da~ ~override/savename.2da~
@@ -143,7 +147,7 @@ REQUIRE_PREDICATE GAME_IS ~PSTEE~
 
 BEGIN @14 // ~Restore 4 Quick Save Slots~
 GROUP @4
-DESIGNATED 44 LABEL "k9_restire_4_quick_save_slots_for_pstee"
+DESIGNATED 44 LABEL "k9_restore_4_quick_save_slots_for_pstee"
 REQUIRE_PREDICATE GAME_IS ~PSTEE~
 
 	COPY ~k9quicksave/2da/pstee/4/savename.2da~ ~override/savename.2da~
@@ -175,7 +179,7 @@ REQUIRE_PREDICATE GAME_IS ~IWDEE~
 
 BEGIN @14 // ~Restore 4 Quick Save Slots~
 GROUP @5
-DESIGNATED 54 LABEL "k9_restire_4_quick_save_slots_for_iwdee"
+DESIGNATED 54 LABEL "k9_restore_4_quick_save_slots_for_iwdee"
 REQUIRE_PREDICATE GAME_IS ~IWDEE~
 
 	COPY ~k9quicksave/2da/iwdee/4/savename.2da~ ~override/savename.2da~
