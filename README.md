@@ -202,7 +202,7 @@ The installer includes the following components. The number of each is the compo
 
 ## <a name="versions" id="versions"></a>Version History
 
-##### Version 1.6 &nbsp;(December 5, 2020)
+##### Version 1.6 &nbsp;(December 7, 2020)
 
 - Added *k9quicksave.ini* metadata file to support AL|EN's "Project Infinity".
 - Renamed *setup-k9Quicksave.tp2* -> *k9quicksave.tp2* to support AL|EN's "Project Infinity".
