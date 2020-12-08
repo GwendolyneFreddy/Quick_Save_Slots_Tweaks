@@ -161,6 +161,7 @@ VI. Version History
 - Added Modmerge check for SoD games.
 - Added components `DESIGNATED` numbers and `LABELS`.
 - Fine tuned `REQUIRE_PREDICATE` conditions to avoid installing the mod in inaccurate games.
+- Grouped games components into `SUBCOMPONENTS` to support AL|EN's "Project Infinity".
 - Added French translation (thanks Gwendolyne).
 - Added "k9quicksave-readme.txt" file.
 - Lower cased files.

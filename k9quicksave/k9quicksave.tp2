@@ -28,31 +28,31 @@ LANGUAGE ~Francais (Traduction : Gwendolyne)~
 /* =========================================== *
  *  First Group: Quick Slots for Non-SoD BGEE  *
  * =========================================== */
-BEGIN @11 // ~Install 1 Quick Save Slot~
-GROUP @1  // ~Quick Slots for BGEE (DO NOT INSTALL IF YOU HAVE SIEGE OF DRAGONSPEAR INSTALLED)~
+BEGIN @11       // ~Install 1 Quick Save Slot~
+SUBCOMPONENT @1 // ~Quick Slots for BGEE (DO NOT INSTALL IF YOU HAVE SIEGE OF DRAGONSPEAR INSTALLED)~
 DESIGNATED 11 LABEL "k9_install_1_quick_save_slot_for_bgee"
-REQUIRE_PREDICATE GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~SOD~
+REQUIRE_PREDICATE GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~SOD~ @22 // ~This component is not available for your game.~
 
 	COPY ~k9quicksave/2da/bgee/1/savename.2da~ ~override/savename.2da~
 
 BEGIN @12 // ~Install 2 Quick Save Slots~
-GROUP @1
-DESIGNATED 12 LABEL "k9_install_12_quick_save_slots_for_bgee"
-REQUIRE_PREDICATE GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~SOD~
+SUBCOMPONENT @1
+DESIGNATED 12 LABEL "k9_install_2_quick_save_slots_for_bgee"
+REQUIRE_PREDICATE GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~SOD~ @22
 
 	COPY ~k9quicksave/2da/bgee/2/savename.2da~ ~override/savename.2da~
 
 BEGIN @13 // ~Install 3 Quick Save Slots~
-GROUP @1
+SUBCOMPONENT @1
 DESIGNATED 13 LABEL "k9_install_3_quick_save_slots_for_bgee"
-REQUIRE_PREDICATE GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~SOD~
+REQUIRE_PREDICATE GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~SOD~ @22
 
 	COPY ~k9quicksave/2da/bgee/3/savename.2da~ ~override/savename.2da~
 
 BEGIN @14 // ~Restore 4 Quick Save Slots~
-GROUP @1
+SUBCOMPONENT @1
 DESIGNATED 14 LABEL "k9_restore_4_quick_save_slots_for_bgee"
-REQUIRE_PREDICATE GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~SOD~
+REQUIRE_PREDICATE GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~SOD~ @22
 
 	COPY ~k9quicksave/2da/bgee/4/savename.2da~ ~override/savename.2da~
 
@@ -60,31 +60,31 @@ REQUIRE_PREDICATE GAME_IS ~BGEE~ AND NOT GAME_INCLUDES ~SOD~
 /* =================================== *
  *  Second Group: Quick Slots for SoD  *
  * =================================== */
-BEGIN @11 // ~Install 1 Quick Save Slot~
-GROUP @2  // ~Quick Slots for SoD~
+BEGIN @11       // ~Install 1 Quick Save Slot~
+SUBCOMPONENT @2 // ~Quick Slots for SoD~
 DESIGNATED 21 LABEL "k9_install_1_quick_save_slot_for_sod"
-REQUIRE_PREDICATE GAME_IS ~IWDEE~ AND GAME_INCLUDES ~SOD~
+REQUIRE_PREDICATE GAME_IS ~BGEE~ AND GAME_INCLUDES ~SOD~ @22 // ~This component is not available for your game.~
 
 	COPY ~k9quicksave/2da/sod/1/savename.2da~ ~override/savename.2da~
 
 BEGIN @12 // ~Install 2 Quick Save Slots~
-GROUP @2
-DESIGNATED 22 LABEL "k9_install_12_quick_save_slots_for_sod"
-REQUIRE_PREDICATE GAME_IS ~IWDEE~ AND GAME_INCLUDES ~SOD~
+SUBCOMPONENT @2
+DESIGNATED 22 LABEL "k9_install_2_quick_save_slots_for_sod"
+REQUIRE_PREDICATE GAME_IS ~BGEE~ AND GAME_INCLUDES ~SOD~ @22
 
 	COPY ~k9quicksave/2da/sod/2/savename.2da~ ~override/savename.2da~
 
 BEGIN @13 // ~Install 3 Quick Save Slots~
-GROUP @2
+SUBCOMPONENT @2
 DESIGNATED 23 LABEL "k9_install_3_quick_save_slots_for_sod"
-REQUIRE_PREDICATE GAME_IS ~IWDEE~ AND GAME_INCLUDES ~SOD~
+REQUIRE_PREDICATE GAME_IS ~BGEE~ AND GAME_INCLUDES ~SOD~ @22
 
 	COPY ~k9quicksave/2da/sod/3/savename.2da~ ~override/savename.2da~
 
 BEGIN @14 // ~Restore 4 Quick Save Slots~
-GROUP @2
+SUBCOMPONENT @2
 DESIGNATED 24 LABEL "k9_restore_4_quick_save_slots_for_sod"
-REQUIRE_PREDICATE GAME_IS ~IWDEE~ AND GAME_INCLUDES ~SOD~
+REQUIRE_PREDICATE GAME_IS ~BGEE~ AND GAME_INCLUDES ~SOD~ @22
 
 	COPY ~k9quicksave/2da/sod/4/savename.2da~ ~override/savename.2da~
 
@@ -92,31 +92,31 @@ REQUIRE_PREDICATE GAME_IS ~IWDEE~ AND GAME_INCLUDES ~SOD~
 /* ==================================== *
  *  Third Group: Quick Slots for BG2EE  *
  * ==================================== */
-BEGIN @11 // ~Install 1 Quick Save Slot~
-GROUP @3  // ~Quick Slots for BG2EE~
+BEGIN @11       // ~Install 1 Quick Save Slot~
+SUBCOMPONENT @3 // ~Quick Slots for BG2EE~
 DESIGNATED 31 LABEL "k9_install_1_quick_save_slot_for_bg2ee"
-REQUIRE_PREDICATE GAME_IS ~BG2EE~
+REQUIRE_PREDICATE GAME_IS ~BG2EE~ @22 // ~This component is not available for your game.~
 
 	COPY ~k9quicksave/2da/bg2ee/1/savename.2da~ ~override/savename.2da~
 
 BEGIN @12 // ~Install 2 Quick Save Slots~
-GROUP @3
-DESIGNATED 32 LABEL "k9_install_12_quick_save_slots_for_bg2ee"
-REQUIRE_PREDICATE GAME_IS ~BG2EE~
+SUBCOMPONENT @3
+DESIGNATED 32 LABEL "k9_install_2_quick_save_slots_for_bg2ee"
+REQUIRE_PREDICATE GAME_IS ~BG2EE~ @22
 
 	COPY ~k9quicksave/2da/bg2ee/2/savename.2da~ ~override/savename.2da~
 
 BEGIN @13 // ~Install 3 Quick Save Slots~
-GROUP @3
+SUBCOMPONENT @3
 DESIGNATED 33 LABEL "k9_install_3_quick_save_slots_for_bg2ee"
-REQUIRE_PREDICATE GAME_IS ~BG2EE~
+REQUIRE_PREDICATE GAME_IS ~BG2EE~ @22
 
 	COPY ~k9quicksave/2da/bg2ee/3/savename.2da~ ~override/savename.2da~
 
 BEGIN @14 // ~Restore 4 Quick Save Slots~
-GROUP @3
+SUBCOMPONENT @3
 DESIGNATED 34 LABEL "k9_restore_4_quick_save_slots_for_bg2ee"
-REQUIRE_PREDICATE GAME_IS ~BG2EE~
+REQUIRE_PREDICATE GAME_IS ~BG2EE~ @22
 
 	COPY ~k9quicksave/2da/bg2ee/4/savename.2da~ ~override/savename.2da~
 
@@ -124,31 +124,31 @@ REQUIRE_PREDICATE GAME_IS ~BG2EE~
 /* ===================================== *
  *  Fourth Group: Quick Slots for PSTEE  *
  * ===================================== */
-BEGIN @11 // ~Install 1 Quick Save Slot~
-GROUP @4  // ~Quick Slots for PSTEE~
-DESIGNATED 31 LABEL "k9_install_1_quick_save_slot_for_pstee"
-REQUIRE_PREDICATE GAME_IS ~PSTEE~
+BEGIN @11       // ~Install 1 Quick Save Slot~
+SUBCOMPONENT @4 // ~Quick Slots for PSTEE~
+DESIGNATED 41 LABEL "k9_install_1_quick_save_slot_for_pstee"
+REQUIRE_PREDICATE GAME_IS ~PSTEE~ @22 // ~This component is not available for your game.~
 
 	COPY ~k9quicksave/2da/pstee/1/savename.2da~ ~override/savename.2da~
 
 BEGIN @12 // ~Install 2 Quick Save Slots~
-GROUP @4
-DESIGNATED 42 LABEL "k9_install_12_quick_save_slots_for_pstee"
-REQUIRE_PREDICATE GAME_IS ~PSTEE~
+SUBCOMPONENT @4
+DESIGNATED 42 LABEL "k9_install_2_quick_save_slots_for_pstee"
+REQUIRE_PREDICATE GAME_IS ~PSTEE~ @22
 
 	COPY ~k9quicksave/2da/pstee/2/savename.2da~ ~override/savename.2da~
 
 BEGIN @13 // ~Install 3 Quick Save Slots~
-GROUP @4
+SUBCOMPONENT @4
 DESIGNATED 43 LABEL "k9_install_3_quick_save_slots_for_pstee"
-REQUIRE_PREDICATE GAME_IS ~PSTEE~
+REQUIRE_PREDICATE GAME_IS ~PSTEE~ @22
 
 	COPY ~k9quicksave/2da/pstee/3/savename.2da~ ~override/savename.2da~
 
 BEGIN @14 // ~Restore 4 Quick Save Slots~
-GROUP @4
+SUBCOMPONENT @4
 DESIGNATED 44 LABEL "k9_restore_4_quick_save_slots_for_pstee"
-REQUIRE_PREDICATE GAME_IS ~PSTEE~
+REQUIRE_PREDICATE GAME_IS ~PSTEE~ @22
 
 	COPY ~k9quicksave/2da/pstee/4/savename.2da~ ~override/savename.2da~
 
@@ -156,30 +156,30 @@ REQUIRE_PREDICATE GAME_IS ~PSTEE~
 /* ==================================== *
  *  Fifth Group: Quick Slots for IWDEE  *
  * ==================================== */
-BEGIN @11 // ~Install 1 Quick Save Slot~
-GROUP @5  // ~Quick Slots for IWDEE~
+BEGIN @11       // ~Install 1 Quick Save Slot~
+SUBCOMPONENT @5 // ~Quick Slots for IWDEE~
 DESIGNATED 51 LABEL "k9_install_1_quick_save_slot_for_iwdee"
-REQUIRE_PREDICATE GAME_IS ~IWDEE~
+REQUIRE_PREDICATE GAME_IS ~IWDEE~ @22 // ~This component is not available for your game.~
 
 	COPY ~k9quicksave/2da/iwdee/1/savename.2da~ ~override/savename.2da~
 
 BEGIN @12 // ~Install 2 Quick Save Slots~
-GROUP @5
-DESIGNATED 52 LABEL "k9_install_12_quick_save_slots_for_iwdee"
-REQUIRE_PREDICATE GAME_IS ~IWDEE~
+SUBCOMPONENT @5
+DESIGNATED 52 LABEL "k9_install_2_quick_save_slots_for_iwdee"
+REQUIRE_PREDICATE GAME_IS ~IWDEE~ @22
 
 	COPY ~k9quicksave/2da/iwdee/2/savename.2da~ ~override/savename.2da~
 
 BEGIN @13 // ~Install 3 Quick Save Slots~
-GROUP @5
+SUBCOMPONENT @5
 DESIGNATED 53 LABEL "k9_install_3_quick_save_slots_for_iwdee"
-REQUIRE_PREDICATE GAME_IS ~IWDEE~
+REQUIRE_PREDICATE GAME_IS ~IWDEE~ @22
 
 	COPY ~k9quicksave/2da/iwdee/3/savename.2da~ ~override/savename.2da~
 
 BEGIN @14 // ~Restore 4 Quick Save Slots~
-GROUP @5
+SUBCOMPONENT @5
 DESIGNATED 54 LABEL "k9_restore_4_quick_save_slots_for_iwdee"
-REQUIRE_PREDICATE GAME_IS ~IWDEE~
+REQUIRE_PREDICATE GAME_IS ~IWDEE~ @22
 
 	COPY ~k9quicksave/2da/iwdee/4/savename.2da~ ~override/savename.2da~
