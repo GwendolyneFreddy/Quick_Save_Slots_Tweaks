@@ -21,7 +21,10 @@ BG2:EE, IWD:EE and PsT:EE<h3>
 
 :warning: **This mod is not compatible with EET**
 
+
 ## 
+
+[Read the mod's readme](https://spellholdstudios.github.io/readmes/k9quicksave-readme.txt)
 
 [Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/1141-quick-save-slots-tweaks/)<br>
 
