@@ -1,5 +1,6 @@
 
 ![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Quick_Save_Slots_Tweaks?include_prereleases&color=darkred)<a name="top" id="top"> </a>
+![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/SpellholdStudios/Quick_Save_Slots_Tweaks?color=gold)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20Mac%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French&color=limegreen)
 
@@ -10,7 +11,7 @@
 BG2:EE, IWD:EE and PsT:EE<h3>
 
 
-</div><br />
+</div><br>
 
 
 **Author:** elminster  
@@ -72,7 +73,7 @@ The BGEE Siege of Dragonspear expansion (SoD) is supported as well. All of the E
 
 *__Disable any antivirus__ or other memory-resident software before installing this or any other mod. Some (particularly avast and Norton!) have a tendency to report false positives with mod activity, resulting in failed installs.*
 
-You can extract files from the archive using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, <a href="http://www.zipgenius.it/ita/?page_id=12">ZipGenius</a> or another file compression utility that handles .zip files.
+You can extract files from the archive using <a href="https://www.7-zip.org/download.html">7zip</a>, <a href="https://www.rarlab.com/download.htm">WinRAR</a>, <a href="https://zipgenius.com/">ZipGenius</a> or another file compression utility that handles .zip files.
 
 ## 
 
@@ -131,8 +132,8 @@ In addition to the methods above for removing individual components, you can com
 
 ## <a name="components" id="components"></a>Components
 
-The installer groups numbers of Quick Save slots to be installed by games, letting the player decide how many slots he/she wants to install.  
-Be sure you are installing the right component of the mod for your version of the game. If you do not have Siege of Dragonspear installed then do not install the "SoD" component. Similarly, if you have Siege of Dragonspear installed then be sure to not install anything in this mod that has to do with the non-SoD components.<br><br>
+The installer groups numbers of Quick Save slots to be installed by games, letting the players decide how many slots they want to install.  
+Be sure you are installing the right component of the mod for your version of the game. If you do not have Siege of Dragonspear installed, then do not install the "SoD" component. Similarly, if you have Siege of Dragonspear installed then be sure to not install anything in this mod that has to do with the non-SoD components.<br><br>
 The installer includes the following components. The number of each is the component *`DESIGNATED`* number which gives it a fixed install position, lets other components detect it and allows automated installers to specify component choices.
 
 ## 
